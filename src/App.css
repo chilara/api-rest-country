@@ -1,0 +1,211 @@
+
+.App {
+  text-align: center;
+  background-color: hsl(0, 0%, 98%);
+  width: auto;
+}
+
+.AppDarkMode {
+  text-align: center;
+  background-color: hsl(207, 26%, 17%);
+  width: auto;
+}
+
+.header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(233, 231, 231);
+  background-color: hsl(0, 0%, 100%);
+  padding: 0 80px;
+  box-shadow: 1px 1px 5px rgb(233, 231, 231);
+}
+
+.headerDarkMode nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(209, 23%, 22%);
+  padding: 0 80px;
+}
+
+.header h2 {
+  color: hsl(200, 15%, 8%);
+}
+
+.header p:hover {
+  cursor: pointer;
+}
+
+.header p {
+  color: hsl(200, 15%, 8%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerDarkMode p, h2 {
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerDarkMode p:hover {
+  cursor: pointer;
+}
+
+.regionCountry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px 10px 80px;
+}
+
+.searchInput {
+  display: flex;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  padding: 10px 30px;
+  border-radius: 5px;
+  width: 500px;
+  justify-content: space-evenly;
+  box-shadow: 1px 1px 5px rgb(233, 231, 231);
+  color: hsl(0, 0%, 52%);
+}
+
+.searchInputDarkMode {
+  display: flex;
+  align-items: center;
+  background-color: hsl(209, 23%, 22%);
+  padding: 10px 30px;
+  border-radius: 5px;
+  width: 500px;
+  justify-content: space-evenly;
+  color: hsl(0, 0%, 100%);
+}
+
+.searchInput input {
+  border: none;
+  padding: 5px 20px;
+  width: 500px;
+  color: hsl(0, 0%, 52%);
+}
+
+.searchInputDarkMode input {
+  background-color: hsl(209, 23%, 22%);
+  border: none;
+  padding: 5px 20px;
+  width: 500px;
+  color:  hsl(0, 0%, 100%);
+}
+.searchInputDarkMode input::placeholder{
+  color:  hsl(0, 0%, 100%);
+}
+.searchInput input:focus {
+  outline: none;
+}
+
+.searchInputDarkMode input:focus {
+  outline: none;
+}
+
+.inputElem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 5px rgb(233, 231, 231);
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
+
+.inputElemDarkMode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(209, 23%, 22%);
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
+
+#demo-simple-select-helper-label {
+  font-size: 14px;
+}
+
+#demo-simple-select-helper-label-darkMode {
+  font-size: 14px;
+  color:  hsl(0, 0%, 100%);
+  background-color: hsl(209, 23%, 22%);
+}
+
+.grid {
+  display: flex;
+  gap: 100px;
+}
+
+.countryFlag {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 30px 80px;
+}
+
+.countryFlagDarkMode {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 30px 80px;
+}
+
+.linkSingleCountry {
+  text-decoration: none;
+}
+
+.cardCon {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 1px 1px 5px rgb(233, 231, 231);
+}
+
+.cardConDarkMode {
+  background-color: hsl(209, 23%, 22%);
+  box-shadow: 1px 1px 5px hsl(209, 23%, 22%);
+}
+
+.imgFlag {
+  border-bottom: 1px solid rgb(233, 231, 231);
+  box-shadow: 1px 1px 5px rgb(233, 231, 231);
+}
+
+.imgFlagDarkMode {
+  background-color: hsl(209, 23%, 22%);
+  box-shadow: 1px 1px 5px hsl(209, 23%, 22%);
+}
+
+.typo {
+  text-align: left;
+  padding: 5px 8px;
+}
+
+.typoDarkMode {
+  text-align: left;
+  padding: 5px 8px;
+  color: hsl(0, 0%, 100%);
+}
+
+.typoDarkMode p {
+  color: rgb(192, 191, 191);
+}
+
+.typoDarkMode strong {
+  color: hsl(0, 0%, 100%);
+}
+
+.typo strong {
+  color: rgb(65, 65, 65);
+}
+
