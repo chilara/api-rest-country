@@ -13,9 +13,9 @@ const CountryDetails = () => {
     <div className={darkMode ? "countryDetailsDarkMode" : "countryDetails"}>
       {loading && <CountrySkeleton />}
       {!loading &&
-        singleCountry?.map((count, i) => (
+        singleCountry?.map((count, index) => (
           <div
-            key={i}
+            key={index}
             className={
               darkMode ? "singleCountryInfoDarkMode" : "singleCountryInfo"
             }
