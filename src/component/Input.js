@@ -16,12 +16,26 @@ function SelectLabels() {
   return (
     <div className={darkMode ? "inputElemDarkMode" : "inputElem"}>
       <FormControl sx={{ width: 200 }}>
-        <InputLabel id={darkMode ? "demo-simple-select-helper-label-darkMode" : "demo-simple-select-helper-label"}>
+        <InputLabel
+          id={
+            darkMode
+              ? "demo-simple-select-helper-label-darkMode"
+              : "demo-simple-select-helper-label"
+          }
+        >
           Filter by Region
         </InputLabel>
         <Select
-          labelId={darkMode ? "demo-simple-select-helper-label-darkMode" : "demo-simple-select-helper-label"}
-          id={darkMode ? "demo-simple-select-helper-label-darkMode" : "demo-simple-select-helper-label"}
+          labelId={
+            darkMode
+              ? "demo-simple-select-helper-label-darkMode"
+              : "demo-simple-select-helper-label"
+          }
+          id={
+            darkMode
+              ? "demo-simple-select-helper-label-darkMode"
+              : "demo-simple-select-helper-label"
+          }
           value={region}
           label="region"
           onChange={handleChange}
@@ -40,5 +54,3 @@ function SelectLabels() {
 }
 
 export default SelectLabels;
-
-

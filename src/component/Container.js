@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Search from "./Search";
-import Input from "./Input";
+// import Input from "./Input";
 import Country from "./Country";
 import { useSelector } from "react-redux";
 
@@ -13,7 +13,7 @@ const Container = () => {
       <Header />
       <div className="regionCountry">
         <Search />
-        <Input />
+        {/* <Input /> */}
       </div>
       <Country />
     </div>

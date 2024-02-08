@@ -1,4 +1,3 @@
-
 .App {
   text-align: center;
   background-color: hsl(0, 0%, 98%);
@@ -11,7 +10,7 @@
   width: auto;
 }
 
-.header nav{
+.header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,7 +43,8 @@
   gap: 10px;
 }
 
-.headerDarkMode p, h2 {
+.headerDarkMode p,
+h2 {
   color: hsl(0, 0%, 100%);
   display: flex;
   align-items: center;
@@ -68,7 +68,7 @@
   background-color: hsl(0, 0%, 100%);
   padding: 10px 30px;
   border-radius: 5px;
-  width: 500px;
+  width: 60%;
   justify-content: space-evenly;
   box-shadow: 1px 1px 5px rgb(233, 231, 231);
   color: hsl(0, 0%, 52%);
@@ -80,7 +80,7 @@
   background-color: hsl(209, 23%, 22%);
   padding: 10px 30px;
   border-radius: 5px;
-  width: 500px;
+  width: 60%;
   justify-content: space-evenly;
   color: hsl(0, 0%, 100%);
 }
@@ -97,10 +97,10 @@
   border: none;
   padding: 5px 20px;
   width: 500px;
-  color:  hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
 }
-.searchInputDarkMode input::placeholder{
-  color:  hsl(0, 0%, 100%);
+.searchInputDarkMode input::placeholder {
+  color: hsl(0, 0%, 100%);
 }
 .searchInput input:focus {
   outline: none;
@@ -135,7 +135,7 @@
 
 #demo-simple-select-helper-label-darkMode {
   font-size: 14px;
-  color:  hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
   background-color: hsl(209, 23%, 22%);
 }
 
@@ -208,4 +208,3 @@
 .typo strong {
   color: rgb(65, 65, 65);
 }
-
